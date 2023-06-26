@@ -1,0 +1,65 @@
+public class Videojuego{
+    private String Codigo;
+    private String Nombre;
+    private String Categoria;
+    private int Ventas;
+    private int numeroVideojuegos;
+    private int totalVentas = 0;
+    
+    
+    public String getCodigo(){
+        return Codigo;
+    }
+    public void setCodigo(String Codigo){
+        if(Codigo != null) this.Codigo = Codigo;
+        else this.Codigo = "";
+    }
+    
+    public String getNombre(){
+        return Nombre;
+    }
+    public void setNombre(String Nombre){
+        if(Nombre != null) this.Nombre = Nombre;
+        else this.Nombre = "";
+    }
+    
+    public String getCategoria(){
+        return Categoria;
+    }
+    public void setCategoria(String Categoria){
+        if(Categoria != null) this.Categoria = Categoria;
+        else this.Categoria = "";
+    }
+    
+    public int getVentas(){
+        return Ventas;
+    }
+    public void setVentas(int Ventas){
+        if(Ventas >= 0) this.Ventas = Ventas;
+        else this.Ventas = 0;
+    }
+    
+    public int getnumeroVideojuegos(){
+        return numeroVideojuegos;
+    }
+    public void setnumeroVideojuegos(int numeroVideojuegos){
+        if(numeroVideojuegos >= 0) this.numeroVideojuegos = numeroVideojuegos;
+        else this.numeroVideojuegos = 0;
+    }
+    
+    
+    Videojuego(String Codigo, String Nombre, String Categoria, int Ventas){
+        setCodigo(Codigo);
+        setNombre(Nombre);
+        setCategoria(Categoria);
+        setVentas(Ventas);
+    }
+    
+    double calcularVentas(){
+        for(int i = 0; i < numeroVideojuegos; i++){
+            Ventas++;
+        }
+        
+        return Ventas;
+    }
+}

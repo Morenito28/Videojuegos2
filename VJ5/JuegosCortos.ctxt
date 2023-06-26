@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=JuegosCortos
+comment1.params=
+comment1.target=java.lang.String\ getCodigo()
+comment10.params=Codigo\ Nombre\ Categoria\ Ventas
+comment10.target=JuegosCortos(java.lang.String,\ java.lang.String,\ java.lang.String,\ int)
+comment11.params=
+comment11.target=double\ calcularVentas()
+comment2.params=
+comment2.target=java.lang.String\ getNombre()
+comment3.params=Nombre
+comment3.target=void\ setNombre(java.lang.String)
+comment4.params=
+comment4.target=java.lang.String\ getCategoria()
+comment5.params=Categoria
+comment5.target=void\ setCategoria(java.lang.String)
+comment6.params=
+comment6.target=int\ getVentas()
+comment7.params=Ventas
+comment7.target=void\ setVentas(int)
+comment8.params=
+comment8.target=int\ getnumeroVideojuegos()
+comment9.params=numeroVideojuegos
+comment9.target=void\ setnumeroVideojuegos(int)
+numComments=12
